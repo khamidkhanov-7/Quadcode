@@ -52,7 +52,7 @@ export const translations = {
         title: 'Get in Touch',
         desc: 'Ready to build something amazing? We\'re here to help you create the digital product of your dreams.',
         response: 'Response within 24 hours',
-        location: 'Tashkent, Uzbekistan',
+        location: 'Namangan, Uzbekistan',
       },
     },
     footer: {

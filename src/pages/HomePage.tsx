@@ -40,7 +40,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
         <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
           <div className="inline-flex items-center gap-2 liquid-glass rounded-full px-4 py-2 mb-8 text-sm text-blue-500">
             <span className="w-2 h-2 bg-blue-500 rounded-full animate-pulse" />
-            Premium Software Agency — Tashkent, Uzbekistan
+            Premium Software Agency — Namangan, Uzbekistan
           </div>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-theme-primary leading-tight mb-6 tracking-tight">

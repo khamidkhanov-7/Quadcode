@@ -21,7 +21,7 @@ export interface TeamMember {
 export const team: TeamMember[] = [
   {
     id: 'amir',
-    name: 'Amir Karimov',
+    name: 'Qakharov Tokhir',
     role: { en: 'Frontend Developer', ru: 'Frontend разработчик', uz: 'Frontend Dasturchi' },
     bio: {
       en: 'Crafting pixel-perfect interfaces with 4+ years of React expertise. Passionate about performance and accessibility.',
@@ -51,7 +51,7 @@ export const team: TeamMember[] = [
       {
         year: '2020 – 2022',
         title: { en: 'Frontend Developer', ru: 'Frontend разработчик', uz: 'Frontend Dasturchi' },
-        company: 'TechStart Tashkent',
+        company: 'TechStart Namangan',
         desc: {
           en: 'Built responsive dashboards and e-commerce platforms.',
           ru: 'Разрабатывал адаптивные дашборды и e-commerce платформы.',
@@ -102,7 +102,7 @@ export const team: TeamMember[] = [
   },
   {
     id: 'daniil',
-    name: 'Daniil Petrov',
+    name: 'Khasanbayev Sobitkhon',
     role: { en: 'Backend Developer', ru: 'Backend разработчик', uz: 'Backend Dasturchi' },
     bio: {
       en: 'Building scalable APIs and microservices with 5+ years in Node.js and Python. Security-first mindset.',
@@ -181,85 +181,141 @@ export const team: TeamMember[] = [
       github: 'https://github.com/daniilpetrov',
     },
   },
+  
   {
-    id: 'zara',
-    name: 'Zara Yusupova',
-    role: { en: 'Mobile Developer', ru: 'Mobile разработчик', uz: 'Mobil Dasturchi' },
-    bio: {
-      en: 'Specialising in React Native & Flutter with 3+ years building delightful cross-platform mobile apps.',
-      ru: 'Специализируюсь на React Native и Flutter, 3+ года создаю мобильные приложения.',
-      uz: '3+ yillik React Native va Flutter tajribasi bilan cross-platform mobil ilovalar yaratuvchi.',
-    },
-    photo: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400',
-    skills: [
-      { name: 'React Native', level: 93 },
-      { name: 'Flutter / Dart', level: 88 },
-      { name: 'iOS / Swift', level: 75 },
-      { name: 'Android / Kotlin', level: 78 },
-      { name: 'UI/UX Design', level: 85 },
-    ],
-    technologies: ['React Native', 'Flutter', 'Dart', 'Swift', 'Kotlin', 'Firebase', 'Expo', 'Figma', 'Redux'],
-    experience: [
-      {
-        year: '2022 – Present',
-        title: { en: 'Mobile Developer', ru: 'Mobile разработчик', uz: 'Mobil Dasturchi' },
-        company: 'QuadCode',
-        desc: {
-          en: 'Building cross-platform mobile apps for iOS and Android.',
-          ru: 'Разработка кросс-платформенных приложений для iOS и Android.',
-          uz: 'iOS va Android uchun cross-platform mobil ilovalar yaratish.',
-        },
-      },
-      {
-        year: '2021 – 2022',
-        title: { en: 'Junior Mobile Developer', ru: 'Junior Mobile разработчик', uz: 'Junior Mobil Dasturchi' },
-        company: 'AppWorks',
-        desc: {
-          en: 'Developed features for consumer-facing mobile applications.',
-          ru: 'Разрабатывала функционал для мобильных приложений.',
-          uz: 'Iste\'molchi ilovalar uchun funksiyalar ishlab chiqdi.',
-        },
-      },
-    ],
-    certificates: [
-      { name: 'Flutter Development Bootcamp', issuer: 'Udemy', year: '2022' },
-      { name: 'React Native Specialist', issuer: 'Codecademy', year: '2023' },
-    ],
-    projects: [
-      {
-        name: 'FoodieGo App',
-        tech: ['React Native', 'Firebase', 'Stripe'],
-        desc: {
-          en: 'Food delivery app with real-time order tracking — 50k+ downloads.',
-          ru: 'Приложение доставки еды с 50k+ загрузок.',
-          uz: 'Ovqat yetkazib berish ilovasi — 50k+ yuklab olishlar.',
-        },
-      },
-      {
-        name: 'FitPulse Wellness',
-        tech: ['Flutter', 'Firebase', 'HealthKit'],
-        desc: {
-          en: 'Fitness tracking app with AI-powered workout recommendations.',
-          ru: 'Фитнес-трекер с ИИ рекомендациями тренировок.',
-          uz: 'AI asosidagi mashq tavsiyalari bilan fitness tracker.',
-        },
-      },
-    ],
-    clientReviews: [
-      {
-        author: 'Mark L.',
-        text: {
-          en: 'Zara delivered our app ahead of schedule with stunning animations.',
-          ru: 'Зара сдала приложение раньше срока с потрясающими анимациями.',
-          uz: 'Zara ilovamizni muddatidan oldin ajoyib animatsiyalar bilan topshirdi.',
-        },
-        rating: 5,
-      },
-    ],
-    social: {
-      telegram: 'https://t.me/zarayusupova',
-      instagram: 'https://instagram.com/zarayusupova',
-      github: 'https://github.com/zarayusupova',
-    },
+  "id": "mukhammadzokhid",
+  "name": "Khamidkhanov Mukhammadzokhid",
+  "role": {
+    "en": "Fullstack & Mobile Developer",
+    "ru": "Fullstack и мобильный разработчик",
+    "uz": "Fullstack va Mobil Dasturchi"
   },
-];
+  "bio": {
+    "en": "Fullstack & mobile developer with 3+ years of experience in scalable web applications and 2+ years specializing in native mobile UI/UX design and implementation.",
+    "ru": "Fullstack и мобильный разработчик с опытом более 3 лет в создании масштабируемых веб-приложений и более 2 лет специализации на дизайне и реализации нативного мобильного UI/UX.",
+    "uz": "Fullstack va mobil dasturchi, 3+ yillik veb-ilovalar va 2+ yil native mobil UI/UX dizayn va amaliyot tajribasiga ega."
+  },
+  "photo": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400",
+  "skills": [
+    { "name": "React / Next.js", "level": 93 },
+    { "name": "Node.js / Express", "level": 90 },
+    { "name": "TypeScript", "level": 88 },
+    { "name": "PostgreSQL / MongoDB", "level": 82 },
+    { "name": "React Native", "level": 85 },
+    { "name": "Native Mobile UI/UX", "level": 88 }
+  ],
+  "technologies": [
+    "React",
+    "Next.js",
+    "Node.js",
+    "Express",
+    "TypeScript",
+    "PostgreSQL",
+    "MongoDB",
+    "Docker",
+    "Redis",
+    "React Native",
+    "Prisma",
+    "GraphQL",
+    "Figma",
+    "SwiftUI",
+    "Kotlin",
+    "Flutter"
+  ],
+  "experience": [
+    {
+      "year": "2022 – Present",
+      "title": {
+        "en": "Fullstack & Mobile Developer",
+        "ru": "Fullstack и мобильный разработчик",
+        "uz": "Fullstack va Mobil Dasturchi"
+      },
+      "company": "QuadCode",
+      "desc": {
+        "en": "Developing end-to-end web and mobile applications with modern frontend, scalable backend, and high-quality native mobile UI/UX.",
+        "ru": "Разработка полного цикла веб и мобильных приложений с современным фронтендом, масштабируемым бэкендом и качественным нативным UI/UX.",
+        "uz": "Zamonaviy frontend, kengaytiriladigan backend va sifatli native mobil UI/UX bilan to‘liq veb va mobil ilovalar yaratish."
+      }
+    },
+    {
+      "year": "2022 – 2024",
+      "title": {
+        "en": "Native Mobile UI/UX Specialist",
+        "ru": "Специалист по нативному мобильному UI/UX",
+        "uz": "Native Mobil UI/UX Mutaxassisi"
+      },
+      "company": "Designly / AppWorks",
+      "desc": {
+        "en": "Designed and implemented native mobile interfaces for iOS and Android, focusing on pixel-perfect UI and smooth user experience.",
+        "ru": "Проектирование и реализация нативных мобильных интерфейсов для iOS и Android с фокусом на идеальный UI и плавный UX.",
+        "uz": "iOS va Android uchun native mobil interfeyslarni loyihalash va amalga oshirish, mukammal UI va silliq foydalanuvchi tajribasiga e'tibor."
+      }
+    },
+    {
+      "year": "2021 – 2022",
+      "title": {
+        "en": "Junior Fullstack Developer",
+        "ru": "Junior Fullstack разработчик",
+        "uz": "Junior Fullstack Dasturchi"
+      },
+      "company": "AppWorks",
+      "desc": {
+        "en": "Built and maintained features across the full stack for client-facing web products, while learning mobile UI/UX principles.",
+        "ru": "Разрабатывал и поддерживал функционал по всему стеку для веб-продуктов клиентов, изучая принципы мобильного UI/UX.",
+        "uz": "Mijozlarga yo‘naltirilgan veb-mahsulotlar uchun full stack bo‘ylab funksiyalar yaratdi va mobil UI/UX tamoyillarini o‘rgandi."
+      }
+    }
+  ],
+  "certificates": [
+    { "name": "Node.js Advanced Concepts", "issuer": "Udemy", "year": "2022" },
+    { "name": "React & TypeScript Specialist", "issuer": "Codecademy", "year": "2023" },
+    { "name": "Mobile UI/UX Design Masterclass", "issuer": "Interaction Design Foundation", "year": "2023" }
+  ],
+  "projects": [
+    {
+      "name": "ShopFlow Platform",
+      "tech": ["Next.js", "Node.js", "PostgreSQL", "Stripe"],
+      "desc": {
+        "en": "E-commerce platform with real-time inventory management — 10k+ active users.",
+        "ru": "Платформа электронной коммерции с управлением запасами в реальном времени — 10k+ пользователей.",
+        "uz": "Real vaqtda inventar boshqaruvi bilan e-commerce platforma — 10k+ faol foydalanuvchilar."
+      }
+    },
+    {
+      "name": "TaskBoard Pro",
+      "tech": ["React", "Express", "MongoDB", "Socket.io"],
+      "desc": {
+        "en": "Real-time project management tool with team collaboration features.",
+        "ru": "Инструмент управления проектами в реальном времени с функциями командной работы.",
+        "uz": "Jamoa hamkorligi xususiyatlari bilan real vaqtdagi loyiha boshqaruv vositasi."
+      }
+    },
+    {
+      "name": "NativeFit — Mobile Fitness App",
+      "tech": ["React Native", "SwiftUI", "Figma", "Firebase"],
+      "desc": {
+        "en": "Cross-platform fitness app with native-like UI/UX, custom animations, and real-time workout tracking.",
+        "ru": "Кроссплатформенное фитнес-приложение с нативным UI/UX, собственными анимациями и отслеживанием тренировок в реальном времени.",
+        "uz": "Native-like UI/UX, maxsus animatsiyalar va real vaqtda mashqlar kuzatuvi bilan kross-platforma fitnes ilovasi."
+      }
+    }
+  ],
+  "clientReviews": [
+    {
+      "author": "Sardor T.",
+      "text": {
+        "en": "Mukhammadzokhid delivered a robust fullstack solution on time with clean, well-documented code and added a polished mobile UI/UX layer.",
+        "ru": "Мухаммадзохид сдал надёжное fullstack решение вовремя с чистым и документированным кодом, добавив отличный мобильный UI/UX.",
+        "uz": "Mukhammadzokhid vaqtida toza va hujjatlashtirilgan kod bilan ishonchli fullstack yechim taqdim etdi va mobil UI/UX qatlamini yaxshiladi."
+      },
+      "rating": 5
+    }
+  ],
+  "social": {
+    "telegram": "https://t.me/mukhammadzokhid",
+    "instagram": "https://instagram.com/mukhammadzokhid",
+    "github": "https://github.com/mukhammadzokhid"
+  }
+
+  }
+]
