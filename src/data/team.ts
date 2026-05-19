@@ -41,7 +41,7 @@ export const team: TeamMember[] = [
       {
         year: '2022 – Present',
         title: { en: 'Senior Frontend Developer', ru: 'Senior Frontend разработчик', uz: 'Senior Frontend Dasturchi' },
-        company: 'QuadCode',
+        company: 'Valix',
         desc: {
           en: 'Leading frontend architecture and mentoring junior developers.',
           ru: 'Руководство фронтенд архитектурой и наставничество.',
@@ -122,7 +122,7 @@ export const team: TeamMember[] = [
       {
         year: '2021 – Present',
         title: { en: 'Lead Backend Developer', ru: 'Lead Backend разработчик', uz: 'Lead Backend Dasturchi' },
-        company: 'QuadCode',
+        company: 'Valix',
         desc: {
           en: 'Designing and implementing high-performance backend systems.',
           ru: 'Проектирование высокопроизводительных бэкенд систем.',
@@ -230,7 +230,7 @@ export const team: TeamMember[] = [
         "ru": "Fullstack и мобильный разработчик",
         "uz": "Fullstack va Mobil Dasturchi"
       },
-      "company": "QuadCode",
+      "company": "Valix",
       "desc": {
         "en": "Developing end-to-end web and mobile applications with modern frontend, scalable backend, and high-quality native mobile UI/UX.",
         "ru": "Разработка полного цикла веб и мобильных приложений с современным фронтендом, масштабируемым бэкендом и качественным нативным UI/UX.",
