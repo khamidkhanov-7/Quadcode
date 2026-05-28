@@ -52,7 +52,7 @@ export default function Navbar({ currentPage, onNavigate }: NavbarProps) {
             <Code2 size={18} className="text-white" />
           </div>
           <span className="text-xl font-bold text-theme-primary tracking-tight">
-            Quad<span className="text-blue-500">Code</span>
+            Valix<span className="text-blue-500"></span>
           </span>
         </button>
 

@@ -19,97 +19,97 @@ export interface TeamMember {
 }
 
 export const team: TeamMember[] = [
-  {
-    id: 'amir',
-    name: 'Qakharov Tokhir',
-    role: { en: 'Frontend Developer', ru: 'Frontend разработчик', uz: 'Frontend Dasturchi' },
-    bio: {
-      en: 'Crafting pixel-perfect interfaces with 4+ years of React expertise. Passionate about performance and accessibility.',
-      ru: 'Создаю интерфейсы до пикселя с 4+ годами опыта React. Увлечён производительностью и доступностью.',
-      uz: '4+ yillik React tajribasi bilan mukammal interfeyslar yaratuvchi. Mahsuldorlik va qulaylikka ishtiyoqli.',
-    },
-    photo: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
-    skills: [
-      { name: 'React / Next.js', level: 95 },
-      { name: 'TypeScript', level: 90 },
-      { name: 'CSS / Tailwind', level: 92 },
-      { name: 'Performance Optimization', level: 85 },
-      { name: 'Testing (Jest/Cypress)', level: 80 },
-    ],
-    technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'Vite', 'GraphQL', 'Redux'],
-    experience: [
-      {
-        year: '2022 – Present',
-        title: { en: 'Senior Frontend Developer', ru: 'Senior Frontend разработчик', uz: 'Senior Frontend Dasturchi' },
-        company: 'Valix',
-        desc: {
-          en: 'Leading frontend architecture and mentoring junior developers.',
-          ru: 'Руководство фронтенд архитектурой и наставничество.',
-          uz: 'Frontend arxitekturasiga rahbarlik va yosh dasturchilarni mentoring qilish.',
-        },
-      },
-      {
-        year: '2020 – 2022',
-        title: { en: 'Frontend Developer', ru: 'Frontend разработчик', uz: 'Frontend Dasturchi' },
-        company: 'TechStart Namangan',
-        desc: {
-          en: 'Built responsive dashboards and e-commerce platforms.',
-          ru: 'Разрабатывал адаптивные дашборды и e-commerce платформы.',
-          uz: 'Moslashuvchan dashboardlar va e-commerce platformalar yaratdi.',
-        },
-      },
-    ],
-    certificates: [
-      { name: 'Meta Frontend Developer', issuer: 'Coursera', year: '2022' },
-      { name: 'AWS Cloud Practitioner', issuer: 'Amazon', year: '2023' },
-    ],
-    projects: [
-      {
-        name: 'NexaShop E-Commerce',
-        tech: ['Next.js', 'TypeScript', 'Stripe'],
-        desc: {
-          en: 'Full-featured e-commerce platform with real-time inventory.',
-          ru: 'Полнофункциональная e-commerce платформа.',
-          uz: 'To\'liq funksiyali e-commerce platforma.',
-        },
-      },
-      {
-        name: 'DataViz Dashboard',
-        tech: ['React', 'D3.js', 'WebSockets'],
-        desc: {
-          en: 'Real-time analytics dashboard for enterprise clients.',
-          ru: 'Дашборд аналитики в реальном времени.',
-          uz: 'Real vaqt tahlil dashboardi.',
-        },
-      },
-    ],
-    clientReviews: [
-      {
-        author: 'Sarah M.',
-        text: {
-          en: 'Amir delivered exceptional work. The UI is beautiful and lightning fast.',
-          ru: 'Амир выполнил отличную работу. UI красивый и быстрый.',
-          uz: 'Amir ajoyib ish qildi. UI chiroyli va tez.',
-        },
-        rating: 5,
-      },
-    ],
-    social: {
-      telegram: 'https://t.me/amirkarimov',
-      instagram: 'https://instagram.com/amirkarimov',
-      github: 'https://github.com/amirkarimov',
-    },
-  },
+  // {
+  //   id: 'amir',
+  //   name: 'Qakharov Tokhir',
+  //   role: { en: 'Frontend Developer', ru: 'Frontend разработчик', uz: 'Frontend Dasturchi' },
+  //   bio: {
+  //     en: 'Crafting pixel-perfect interfaces with 4+ years of React expertise. Passionate about performance and accessibility.',
+  //     ru: 'Создаю интерфейсы до пикселя с 4+ годами опыта React. Увлечён производительностью и доступностью.',
+  //     uz: '4+ yillik React tajribasi bilan mukammal interfeyslar yaratuvchi. Mahsuldorlik va qulaylikka ishtiyoqli.',
+  //   },
+  //   photo: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
+  //   skills: [
+  //     { name: 'React / Next.js', level: 95 },
+  //     { name: 'TypeScript', level: 90 },
+  //     { name: 'CSS / Tailwind', level: 92 },
+  //     { name: 'Performance Optimization', level: 85 },
+  //     { name: 'Testing (Jest/Cypress)', level: 80 },
+  //   ],
+  //   technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'Vite', 'GraphQL', 'Redux'],
+  //   experience: [
+  //     {
+  //       year: '2022 – Present',
+  //       title: { en: 'Senior Frontend Developer', ru: 'Senior Frontend разработчик', uz: 'Senior Frontend Dasturchi' },
+  //       company: 'Valix',
+  //       desc: {
+  //         en: 'Leading frontend architecture and mentoring junior developers.',
+  //         ru: 'Руководство фронтенд архитектурой и наставничество.',
+  //         uz: 'Frontend arxitekturasiga rahbarlik va yosh dasturchilarni mentoring qilish.',
+  //       },
+  //     },
+  //     {
+  //       year: '2020 – 2022',
+  //       title: { en: 'Frontend Developer', ru: 'Frontend разработчик', uz: 'Frontend Dasturchi' },
+  //       company: 'TechStart Namangan',
+  //       desc: {
+  //         en: 'Built responsive dashboards and e-commerce platforms.',
+  //         ru: 'Разрабатывал адаптивные дашборды и e-commerce платформы.',
+  //         uz: 'Moslashuvchan dashboardlar va e-commerce platformalar yaratdi.',
+  //       },
+  //     },
+  //   ],
+  //   certificates: [
+  //     { name: 'Meta Frontend Developer', issuer: 'Coursera', year: '2022' },
+  //     { name: 'AWS Cloud Practitioner', issuer: 'Amazon', year: '2023' },
+  //   ],
+  //   projects: [
+  //     {
+  //       name: 'NexaShop E-Commerce',
+  //       tech: ['Next.js', 'TypeScript', 'Stripe'],
+  //       desc: {
+  //         en: 'Full-featured e-commerce platform with real-time inventory.',
+  //         ru: 'Полнофункциональная e-commerce платформа.',
+  //         uz: 'To\'liq funksiyali e-commerce platforma.',
+  //       },
+  //     },
+  //     {
+  //       name: 'DataViz Dashboard',
+  //       tech: ['React', 'D3.js', 'WebSockets'],
+  //       desc: {
+  //         en: 'Real-time analytics dashboard for enterprise clients.',
+  //         ru: 'Дашборд аналитики в реальном времени.',
+  //         uz: 'Real vaqt tahlil dashboardi.',
+  //       },
+  //     },
+  //   ],
+  //   clientReviews: [
+  //     {
+  //       author: 'Sarah M.',
+  //       text: {
+  //         en: 'Amir delivered exceptional work. The UI is beautiful and lightning fast.',
+  //         ru: 'Амир выполнил отличную работу. UI красивый и быстрый.',
+  //         uz: 'Amir ajoyib ish qildi. UI chiroyli va tez.',
+  //       },
+  //       rating: 5,
+  //     },
+  //   ],
+  //   social: {
+  //     telegram: 'https://t.me/amirkarimov',
+  //     instagram: 'https://instagram.com/amirkarimov',
+  //     github: 'https://github.com/amirkarimov',
+  //   },
+  // },
   {
     id: 'daniil',
     name: 'Khasanbayev Sobitkhon',
     role: { en: 'Backend Developer', ru: 'Backend разработчик', uz: 'Backend Dasturchi' },
     bio: {
-      en: 'Building scalable APIs and microservices with 5+ years in Node.js and Python. Security-first mindset.',
-      ru: 'Создаю масштабируемые API и микросервисы, 5+ лет с Node.js и Python. Приоритет безопасности.',
-      uz: '5+ yillik Node.js va Python tajribasi bilan kengaytiriladigan API va mikroservislar qurvchi.',
+      en: 'Building scalable APIs and microservices with 2+ years in Node.js and Python. Security-first mindset.',
+      ru: 'Создаю масштабируемые API и микросервисы, 2+ года с Node.js и Python. Приоритет безопасности.',
+      uz: '2+ yillik Node.js va Python tajribasi bilan kengaytiriladigan API va mikroservislar qurvchi.',
     },
-    photo: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=400',
+    photo: 'image1.png',
     skills: [
       { name: 'Node.js / Express', level: 95 },
       { name: 'Python / FastAPI', level: 90 },
@@ -120,7 +120,7 @@ export const team: TeamMember[] = [
     technologies: ['Node.js', 'Python', 'FastAPI', 'PostgreSQL', 'Redis', 'Docker', 'Kubernetes', 'AWS', 'Supabase'],
     experience: [
       {
-        year: '2021 – Present',
+        year: '2024 – Present',
         title: { en: 'Lead Backend Developer', ru: 'Lead Backend разработчик', uz: 'Lead Backend Dasturchi' },
         company: 'Valix',
         desc: {
@@ -130,7 +130,7 @@ export const team: TeamMember[] = [
         },
       },
       {
-        year: '2019 – 2021',
+        year: '2024 – 2026',
         title: { en: 'Backend Developer', ru: 'Backend разработчик', uz: 'Backend Dasturchi' },
         company: 'CloudSoft',
         desc: {
@@ -141,8 +141,8 @@ export const team: TeamMember[] = [
       },
     ],
     certificates: [
-      { name: 'AWS Solutions Architect', issuer: 'Amazon', year: '2022' },
-      { name: 'Certified Kubernetes Administrator', issuer: 'CNCF', year: '2023' },
+      { name: 'AWS Solutions Architect', issuer: 'Amazon', year: '2024' },
+      { name: 'Certified Kubernetes Administrator', issuer: 'CNCF', year: '2024' },
     ],
     projects: [
       {
@@ -168,17 +168,17 @@ export const team: TeamMember[] = [
       {
         author: 'Alex T.',
         text: {
-          en: 'Daniil built a rock-solid API that handles our peak traffic flawlessly.',
-          ru: 'Даниил создал надёжный API, справляющийся с пиковой нагрузкой.',
-          uz: 'Daniil bizning yuqori yuklamani mukammal qabul qiluvchi API yaratdi.',
+          en: 'Sobithon built a rock-solid API that handles our peak traffic flawlessly.',
+          ru: 'Sobithon создал надёжный API, справляющийся с пиковой нагрузкой.',
+          uz: 'Sobithon bizning yuqori yuklamani mukammal qabul qiluvchi API yaratdi.',
         },
         rating: 5,
       },
     ],
     social: {
-      telegram: 'https://t.me/daniilpetrov',
-      instagram: 'https://instagram.com/daniilpetrov',
-      github: 'https://github.com/daniilpetrov',
+      telegram: 'https://t.me/khasanbayev7',
+      instagram: 'https://instagram.com/khasanbayev.7',
+      github: 'https://github.com/khasanbayev-7',
     },
   },
   
@@ -191,11 +191,11 @@ export const team: TeamMember[] = [
     "uz": "Fullstack va Mobil Dasturchi"
   },
   "bio": {
-    "en": "Fullstack & mobile developer with 3+ years of experience in scalable web applications and 2+ years specializing in native mobile UI/UX design and implementation.",
-    "ru": "Fullstack и мобильный разработчик с опытом более 3 лет в создании масштабируемых веб-приложений и более 2 лет специализации на дизайне и реализации нативного мобильного UI/UX.",
-    "uz": "Fullstack va mobil dasturchi, 3+ yillik veb-ilovalar va 2+ yil native mobil UI/UX dizayn va amaliyot tajribasiga ega."
+    "en": "Fullstack & mobile developer with 2+ years of experience in scalable web applications and 2+ years specializing in native mobile UI/UX design and implementation.",
+    "ru": "Fullstack и мобильный разработчик с опытом более 2 лет в создании масштабируемых веб-приложений и более 2 лет специализации на дизайне и реализации нативного мобильного UI/UX.",
+    "uz": "Fullstack va mobil dasturchi, 2+ yillik veb-ilovalar va 2+ yil native mobil UI/UX dizayn va amaliyot tajribasiga ega."
   },
-  "photo": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400",
+  "photo": "image2.png",
   "skills": [
     { "name": "React / Next.js", "level": 93 },
     { "name": "Node.js / Express", "level": 90 },
@@ -208,7 +208,7 @@ export const team: TeamMember[] = [
     "React",
     "Next.js",
     "Node.js",
-    "Express",
+  
     "TypeScript",
     "PostgreSQL",
     "MongoDB",
@@ -219,12 +219,12 @@ export const team: TeamMember[] = [
     "GraphQL",
     "Figma",
     "SwiftUI",
-    "Kotlin",
+  
     "Flutter"
   ],
   "experience": [
     {
-      "year": "2022 – Present",
+      "year": "2025 – Present",
       "title": {
         "en": "Fullstack & Mobile Developer",
         "ru": "Fullstack и мобильный разработчик",
@@ -238,7 +238,7 @@ export const team: TeamMember[] = [
       }
     },
     {
-      "year": "2022 – 2024",
+      "year": "2025 – 2026",
       "title": {
         "en": "Native Mobile UI/UX Specialist",
         "ru": "Специалист по нативному мобильному UI/UX",
@@ -252,7 +252,7 @@ export const team: TeamMember[] = [
       }
     },
     {
-      "year": "2021 – 2022",
+      "year": "2024 – 2026",
       "title": {
         "en": "Junior Fullstack Developer",
         "ru": "Junior Fullstack разработчик",
@@ -267,9 +267,9 @@ export const team: TeamMember[] = [
     }
   ],
   "certificates": [
-    { "name": "Node.js Advanced Concepts", "issuer": "Udemy", "year": "2022" },
-    { "name": "React & TypeScript Specialist", "issuer": "Codecademy", "year": "2023" },
-    { "name": "Mobile UI/UX Design Masterclass", "issuer": "Interaction Design Foundation", "year": "2023" }
+    { "name": "Node.js Advanced Concepts", "issuer": "Udemy", "year": "2025" },
+    { "name": "React & TypeScript Specialist", "issuer": "Codecademy", "year": "2025" },
+    { "name": "Mobile UI/UX Design Masterclass", "issuer": "Interaction Design Foundation", "year": "2025" }
   ],
   "projects": [
     {
@@ -312,9 +312,9 @@ export const team: TeamMember[] = [
     }
   ],
   "social": {
-    "telegram": "https://t.me/mukhammadzokhid",
-    "instagram": "https://instagram.com/mukhammadzokhid",
-    "github": "https://github.com/mukhammadzokhid"
+    "telegram": "https://t.me/khamidkhanov7",
+    "instagram": "https://instagram.com/khamidkhanov.7",
+    "github": "https://github.com/khamidkhanov-7"
   }
 
   }

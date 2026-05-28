@@ -171,7 +171,7 @@ export default function ReviewsPage() {
                       onChange={(e) => setForm((f) => ({ ...f, email: e.target.value }))}
                       required
                       className="input-field"
-                      placeholder="john@example.com"
+                      placeholder="khamidkhanov@gmail.com"
                     />
                   </div>
                 </div>

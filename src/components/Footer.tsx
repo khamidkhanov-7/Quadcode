@@ -1,4 +1,4 @@
-import { Code2, Github, Send, Instagram, Twitter } from 'lucide-react';
+import { Code2, Github, Send, Instagram, } from 'lucide-react';
 import { useLang } from '../context/LanguageContext';
 
 interface FooterProps {
@@ -24,7 +24,7 @@ export default function Footer({ onNavigate }: FooterProps) {
                 <Code2 size={18} className="text-white" />
               </div>
               <span className="text-xl font-bold text-theme-primary">
-                Quad<span className="text-blue-500">Code</span>
+                Velix<span className="text-blue-500"></span>
               </span>
             </button>
             <p className="text-theme-secondary text-sm leading-relaxed max-w-xs">
@@ -35,7 +35,7 @@ export default function Footer({ onNavigate }: FooterProps) {
                 { icon: Github, href: '#' },
                 { icon: Send, href: '#' },
                 { icon: Instagram, href: '#' },
-                { icon: Twitter, href: '#' },
+                
               ].map(({ icon: Icon, href }, i) => (
                 <a
                   key={i}
