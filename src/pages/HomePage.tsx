@@ -44,7 +44,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
           </div>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-theme-primary leading-tight mb-6 tracking-tight">
-            <span className="block">Valix</span>
+            <span className="block">Velix</span>
             <span className="block bg-gradient-to-r from-blue-500 via-cyan-500 to-teal-400 bg-clip-text text-transparent">
               {t.hero.title}
             </span>

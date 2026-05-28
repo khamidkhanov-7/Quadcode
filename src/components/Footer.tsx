@@ -89,7 +89,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div className="flex items-center gap-1 text-theme-muted text-sm">
             <span>Built with</span>
             <span className="text-blue-500 mx-1">&#9830;</span>
-            <span>Valix</span>
+            <span>Velix</span>
           </div>
         </div>
       </div>

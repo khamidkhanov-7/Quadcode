@@ -39,7 +39,7 @@ export default function ContactPage() {
               {[
                 { icon: Clock, text: t.contact.info.response, color: 'text-blue-500' },
                 { icon: MapPin, text: t.contact.info.location, color: 'text-cyan-500' },
-                { icon: MessageSquare, text: '@valix', color: 'text-blue-500' },
+                { icon: MessageSquare, text: '@velix', color: 'text-blue-500' },
               ].map(({ icon: Icon, text, color }, i) => (
                 <div key={i} className="flex items-center gap-3 mb-4 last:mb-0">
                   <div className="w-9 h-9 rounded-lg bg-blue-500/10 border border-blue-500/20 flex items-center justify-center flex-shrink-0">

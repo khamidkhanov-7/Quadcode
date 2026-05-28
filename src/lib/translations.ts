@@ -59,7 +59,7 @@ export const translations = {
       description: 'We build exceptional digital experiences for forward-thinking businesses.',
       quickLinks: 'Quick Links',
       services: 'Services',
-      copyright: '© 2024 Valix. All rights reserved.',
+      copyright: '© 2024 Velix. All rights reserved.',
       serviceList: ['Web Development', 'Mobile Apps', 'Backend Systems', 'UI/UX Design'],
     },
     cv: {
@@ -132,7 +132,7 @@ export const translations = {
       description: 'Мы создаём исключительные цифровые продукты для передовых компаний.',
       quickLinks: 'Быстрые ссылки',
       services: 'Услуги',
-      copyright: '© 2024 Valix. Все права защищены.',
+      copyright: '© 2024 Velix. Все права защищены.',
       serviceList: ['Веб-разработка', 'Мобильные приложения', 'Бэкенд системы', 'UI/UX Дизайн'],
     },
     cv: {
@@ -205,7 +205,7 @@ export const translations = {
       description: 'Ilg\'or bizneslar uchun ajoyib raqamli tajribalar yaratamiz.',
       quickLinks: 'Tezkor havolalar',
       services: 'Xizmatlar',
-      copyright: '© 2024 Valix. Barcha huquqlar himoyalangan.',
+      copyright: '© 2024 Velix. Barcha huquqlar himoyalangan.',
       serviceList: ['Veb dasturlash', 'Mobil ilovalar', 'Backend tizimlar', 'UI/UX Dizayn'],
     },
     cv: {

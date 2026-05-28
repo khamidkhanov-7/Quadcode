@@ -44,7 +44,7 @@ export default function ReviewsPage() {
       id: 's1',
       name: 'James Carter',
       rating: 5,
-      message: 'Absolutely blown away by the quality of work. Valix delivered a world-class platform that exceeded every expectation.',
+      message: 'Absolutely blown away by the quality of work. Velix delivered a world-class platform that exceeded every expectation.',
       created_at: '2024-01-15',
     },
     {
@@ -58,7 +58,7 @@ export default function ReviewsPage() {
       id: 's3',
       name: 'Marcus Hoffman',
       rating: 5,
-      message: 'Valix turned our complex requirements into an elegant solution. Their backend architecture is rock-solid and highly scalable.',
+      message: 'Velix turned our complex requirements into an elegant solution. Their backend architecture is rock-solid and highly scalable.',
       created_at: '2024-03-10',
     },
   ];
