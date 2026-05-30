@@ -34,8 +34,8 @@ export const projects: Project[] = [
     },
     image: 'https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=800',
     technologies: ['Node.js', 'Python', 'Kubernetes', 'PostgreSQL', 'AWS'],
-    liveUrl: '#',
-    githubUrl: '#',
+    liveUrl: 'https://pay-flow-financial-platform.vercel.app/',
+    githubUrl: 'https://github.com/khamidkhanov-7/PayFlow-Financial-Platform.git',
     category: 'Backend',
   },
   {
